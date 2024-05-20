@@ -1,8 +1,30 @@
-# React + Vite
+# Hulu Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my first project, a clone of the Hulu streaming service interface.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a simple clone of Hulu, designed to showcase popular movies using The Movie Database (TMDb) API. It is built with React and styled with custom CSS. The application fetches data from the TMDb API and displays movie information, including posters, titles, descriptions, ratings, and release dates.
+
+## Features
+
+- Fetch and display popular movies
+- Responsive design
+- Hover effects on movie cards
+- Dynamic loading of movie data
+
+## Technologies Used
+
+- React
+- Vite
+- CSS
+
+## Acknowledgements
+
+The Movie Database (TMDb) for providing the API to fetch movie data.
+
+
+## Author
+
+Petar Grujoski
+
