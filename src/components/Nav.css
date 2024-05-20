@@ -1,0 +1,47 @@
+.nav {
+    position: relative;
+  }
+  
+  .nav__container {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+  }
+  
+  .nav__container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .nav__item {
+    margin-right: 80px;
+    cursor: pointer;
+    font-weight: lighter;
+    transition: transform 0.1s ease-in-out, color 0.1s ease-in-out;
+  }
+  
+  .nav__item:last-of-type {
+    padding-right: 100px;
+  }
+  
+  .nav__item:hover {
+    transform: scale(1.25);
+    color: white;
+  }
+  
+  .nav__item:active {
+    color: red;
+  }
+  
+  .nav__gradient {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    width: 8%;
+    background: linear-gradient(to left, #06202A, transparent);
+  }
+  
